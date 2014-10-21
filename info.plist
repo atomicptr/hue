@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>de.kasoki.hue</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Christopher Kaster (@kasoki)</string>
+	<key>description</key>
+	<string>Workflow for converting colors</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Hue</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>#</string>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string>VAR=$(python hex.py)
+echo $VAR</string>
+				<key>title</key>
+				<string>Hex color</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A3D544BF-85F2-49A2-8527-B860A8B2172F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>rgb</string>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string>VAR=$(python rgb.py)
+echo $VAR</string>
+				<key>title</key>
+				<string>RGB color</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DD4DC063-293B-4252-9366-3119918EF2FA</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>A3D544BF-85F2-49A2-8527-B860A8B2172F</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>DD4DC063-293B-4252-9366-3119918EF2FA</key>
+		<dict>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://christopher.kaster.ws</string>
+</dict>
+</plist>
