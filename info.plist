@@ -38,7 +38,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Hue</string>
+	<string>hue</string>
 	<key>objects</key>
 	<array>
 		<dict>
