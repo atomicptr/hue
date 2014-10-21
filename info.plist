@@ -7,7 +7,30 @@
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>A3D544BF-85F2-49A2-8527-B860A8B2172F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D23F1910-F484-4DB5-B0E5-3898DA7BB518</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>DD4DC063-293B-4252-9366-3119918EF2FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D23F1910-F484-4DB5-B0E5-3898DA7BB518</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Christopher Kaster (@kasoki)</string>
 	<key>description</key>
@@ -51,6 +74,21 @@ echo $VAR</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>D23F1910-F484-4DB5-B0E5-3898DA7BB518</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -87,6 +125,11 @@ echo $VAR</string>
 		<dict>
 			<key>ypos</key>
 			<real>50</real>
+		</dict>
+		<key>D23F1910-F484-4DB5-B0E5-3898DA7BB518</key>
+		<dict>
+			<key>ypos</key>
+			<real>110</real>
 		</dict>
 		<key>DD4DC063-293B-4252-9366-3119918EF2FA</key>
 		<dict>
