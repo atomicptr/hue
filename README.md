@@ -4,7 +4,7 @@ Alfred workflow to convert "color formats".
 
 ## Download
 
-Download the workflow [here](https://github.com/kasoki/hue/blob/master/hue.alfredworkflow?raw=true)
+Download the workflow [here](http://tinyurl.com/hue-download)
 
 ## Hex
 
