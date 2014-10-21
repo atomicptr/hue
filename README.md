@@ -14,3 +14,6 @@ Download the workflow [here]()
 
 ![rgb](screens/rgb.png)
 
+## License
+
+MIT
