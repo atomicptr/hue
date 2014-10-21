@@ -30,10 +30,12 @@
 				<key>runningsubtext</key>
 				<string>loading...</string>
 				<key>script</key>
-				<string>VAR=$(python hex.py)
+				<string>VAR=$(python hex.py {query})
 echo $VAR</string>
+				<key>subtext</key>
+				<string>Convert Hex into other formats</string>
 				<key>title</key>
-				<string>Hex color</string>
+				<string>hue: Hex</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -58,14 +60,16 @@ echo $VAR</string>
 				<key>runningsubtext</key>
 				<string>loading...</string>
 				<key>script</key>
-				<string>VAR=$(python rgb.py)
+				<string>VAR=$(python rgb.py {query})
 echo $VAR</string>
+				<key>subtext</key>
+				<string>Convert RGB into other formats</string>
 				<key>title</key>
-				<string>RGB color</string>
+				<string>hue: RGB</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
